@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Prefab labels</title>
+<style>
+:root{font-family:Arial,sans-serif;color:#202124;background:#fff}body{margin:0;padding:18px}.wrap{max-width:340px}h2{font-size:18px;margin:0 0 6px}.sub{font-size:12px;color:#687078;margin:0 0 18px}.field{margin:14px 0}.field label{display:block;font-size:11px;color:#6d747b;margin-bottom:5px}.value{font-size:14px;font-weight:600;padding:10px 11px;background:#f3f5f6;border-radius:5px}button{width:100%;padding:11px;border:0;border-radius:5px;font-size:14px;font-weight:600;cursor:pointer;margin-top:9px}.primary{background:#1769aa;color:#fff}.secondary{background:#eef1f3;color:#263238}.status{margin-top:14px;padding:10px;background:#f6f7f8;border-radius:5px;font-size:12px;line-height:1.5;white-space:pre-wrap}.small{font-size:11px;color:#70777d;margin-top:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h2>Prefab labels</h2><p class="sub">Trimble Connect · 3D Viewer</p>
+<div class="field"><label>Presentation Layer</label><div class="value">BALK</div></div>
+<div class="field"><label>Eigenschap</label><div class="value">VEstuk_Nr</div></div>
+<button id="show" class="primary">Toon stuknummers</button>
+<button id="clear" class="secondary">Verwijder labels van deze app</button>
+<div id="status" class="status">Verbindt met Trimble Connect…</div>
+<p class="small">Labels worden als viewer-markups geplaatst. Het BIM-model zelf wordt niet gewijzigd.</p>
+</div>
+<script src="https://components.connect.trimble.com/trimble-connect-workspace-api/index.js"></script>
+<script src="app.js"></script>
+</body></html>
